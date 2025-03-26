@@ -1,0 +1,25 @@
+Project: 
+Description: 
+Selected Stack: [This will be filled by the script]
+Feature Request: [This will be filled by the script]
+
+General Instructions (Backend & Frontend):
+1. Analyze and Implement the Feature:
+   - Review the codebases and feature description carefully.
+   - Implement the feature across backend and frontend, ensuring seamless integration.
+2. Refactor for Clarity and Performance:
+   - Refactor code to enhance readability, maintainability, and performance.
+   - Add inline comments to explain changes, logic, and complex sections.
+3. Error Handling:
+   - Implement robust error handling to manage exceptions gracefully.
+   - Provide meaningful error messages for developers and users.
+4. Modularity and Reusability:
+   - Structure code to be modular and reusable.
+   - Follow the DRY (Don’t Repeat Yourself) principle to minimize duplication.
+5. Testing and Validation:
+   - Ensure code is testable.
+   - Validate functionality with unit and integration tests where applicable.
+6. Consistency:
+   - Adhere to the project’s existing coding style, naming conventions, and architectural patterns.
+7. Documentation:
+   - Update or add documentation for new features, including API docs and code comments.

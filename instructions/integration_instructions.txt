@@ -1,0 +1,7 @@
+Integration Between Frontend and Backend:
+1. API Integration:
+   - Use frontend services to interact with backend APIs, maintaining separation of concerns.
+2. Data Synchronization:
+   - Keep frontend data in sync with the backend.
+3. Error Propagation:
+   - Propagate backend errors to the frontend with user-appropriate messages.

@@ -1,0 +1,28 @@
+Backend-Specific Instructions (FastAPI with Python):
+1. Async/Await Usage:
+   - Use `async/await` for database operations and I/O-bound tasks to ensure non-blocking execution.
+2. Database Transactions:
+   - Use nested transactions for multi-step operations or related entities to maintain data integrity.
+3. API Endpoints:
+   - Design RESTful endpoints that are intuitive and use standard HTTP methods.
+4. Data Validation:
+   - Use Pydantic models for strict data validation to ensure integrity and security.
+5. Authentication and Authorization:
+   - Secure endpoints with appropriate authentication and authorization checks.
+6. Logging:
+   - Incorporate logging to track behavior and assist debugging.
+7. Migration Management:
+   - Provide Alembic migration commands for schema changes if applicable.
+8. Performance Optimization:
+   - Optimize database queries and API responses for efficiency.
+9. Error Handling:
+   - Use try-except blocks to handle exceptions and return appropriate HTTP status codes.
+10. Documentation Standards:
+    - At the top of each Python file, include a multi-line comment block starting with `# Description:` summarizing the file’s purpose.
+    - Follow with `# Parent Dependencies:` listing direct imports or modules this file relies on.
+    - Then `# Child Dependencies:` listing files that directly depend on this one (use "None" if none).
+    - Finally `# Optimizations:` suggesting potential improvements (e.g., caching, query optimization).
+11. SQLAlchemy Relationship Loading:
+    - Use selectinload or joinedload for relationships accessed in synchronous contexts.
+12. Transaction Management:
+    - Use await db.commit() after updates or inserts to persist changes.

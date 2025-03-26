@@ -1,0 +1,27 @@
+Frontend-Specific Instructions (SwiftUI for iOS):
+1. SwiftUI Previews:
+   - Use previews with mock data to test UI components in isolation.
+2. Dependency Injection:
+   - Use dependency injection to decouple components and improve testability.
+3. State Management:
+   - Manage state with `@State`, `@Binding`, `@ObservedObject`, etc., for responsive UI updates.
+4. UI Components:
+   - Create reusable UI components for consistency and reduced duplication.
+5. Accessibility:
+   - Add labels and traits to UI elements for accessibility.
+6. Performance Optimization:
+   - Minimize unnecessary redraws and use efficient data structures for UI performance.
+7. Error Handling:
+   - Handle errors in the UI with user-friendly messages and recovery options.
+8. Services Integration:
+   - Use services for data fetching and management.
+9. File Organization:
+   - Split files based on logical boundaries (e.g., data vs. UI) and reusability.
+10. Best Practices:
+    - Follow SwiftUI best practices: small, focused views and services with clear responsibilities.
+    - Keep files under 250 lines where possible.
+    - Documentation Standards:
+      - At the top of each Swift file, include a multi-line comment block starting with `// Description:` summarizing the file’s purpose.
+      - Follow with `// Parent Dependencies:` listing direct imports or files this file relies on.
+      - Then `// Child Dependencies:` listing files that directly depend on this one (use "None" if none).
+      - Finally `// Optimizations:` suggesting potential improvements (e.g., caching, UI redraw reduction).
